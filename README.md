@@ -1,7 +1,7 @@
 # Earth-Orbit-Prediction-
 This is a fun mini project which predicts the coordinate(in (x,y,z)) of earth with respect to the sun across different dates till 2030.
 
-- Model Training
+## Model Training
 -   Data Collection: Utilizes the astroquery library to fetch Earth's position data from JPL Horizons. The AD (Anno Domini) prefix in the date strings is removed to standardize the datetime format.
 
 -    Feature Engineering: Introduces cyclical features to capture the periodic nature of Earth's orbit. Specifically, the day of the year is transformed using sine and cosine functions to represent its cyclical behavior.
